@@ -16,7 +16,7 @@ def display_inventory(inventorys):
     print("total number if items:" + str(item_total))
 #
 import pprint
-while 1=1 :
+while True :
     bag = open('bag.txt','r')
     inventory = eval(bag.read())
     if inventory  == "":
