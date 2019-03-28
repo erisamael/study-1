@@ -7,6 +7,7 @@ def output_dict(): #创建一个字典
         dict1[list_E[i]] = (i+1)
         i += 1
     return dict1
+#虽然这个函数不够简洁，但是节约人力啊
 dict2 = output_dict()
 name = input("输入名字：")
 sun = 0
