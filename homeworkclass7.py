@@ -1,5 +1,5 @@
 import numpy
-def prime_iter(num):
+def prime_iter(num):#做了重复功，正在学习os和sys导入解压文件夹为库，本地操作，不过有点困难就是了，之后直接导入前面的函数是最好的
     num = int(num)
     if num <= 1:
         return False
