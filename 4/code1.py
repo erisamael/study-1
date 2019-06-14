@@ -9,3 +9,4 @@ for i in str_file:
     else:
         dict_f[i] +=1
 print(dict_f)
+fileon.close()
