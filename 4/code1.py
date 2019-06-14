@@ -1,6 +1,6 @@
 dict_f = {}
-file = open("test.txt","r")
-str_file = file.read()
+fileon = open("test.txt","r")
+str_file = fileon.read()
 for i in str_file:
   if i in [" ",",",".","?","!"]:
     continue
