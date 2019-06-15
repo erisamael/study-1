@@ -6,7 +6,4 @@ def sort(x):
 	for i in range(len(x)):
 		newlist.append(max(x))
 		x.remove(max(x))
-		return newlist
-ax(x))
-		x.remove(max(x))
-		return newlist
+	return newlist
